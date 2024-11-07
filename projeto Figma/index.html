@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Adding Metas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma Wiki sobre Star Wars!">
+    <meta name="keywords" content="Wiki Star Wars">
+    <!-- Icon of the Site -->
+    <link rel="shortcut icon" href="img/imglogo.png" type="image/x-icon">
+    <!-- Link for the Reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Link for the CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Title of The Site-->
+    <title>WookiPedia</title>
+</head>
+<body>
+    <!-- Starting TheHeader -->
+    <header>
+        <!-- Box of The Logo -->
+        <div class="logo">
+            <figcaption id="img-logo">
+                <img src="img/imglogo.png" alt="Image of Us Wiki">
+            </figcaption>
+            <h1>WookiPedia</h1>
+        </div>
+        <!-- Starting The Nav-Bar -->
+        <nav>
+            <ul>
+                <li><a href="#history">História</a></li>
+                <li><a href="#characters">Personagens</a></li>
+                <li><a href="#spaceship">Naves</a></li>
+                <li><a href="#films">Filmes</a></li>
+                <li><a href="#force">A Força</a></li>
+            </ul>
+        </nav>
+        <!-- Ending The Nav-Bar -->
+    </header>
+    <!-- Ending The Header -->
+    <!-- Starting The Container -->
+    <div class="container">
+        <!-- Starting The Main -->
+        <main>
+            <!-- Starting The Section about the History -->
+            <section class="box" id="history">
+                <figcaption>
+                    <!-- Image about Text Introduction -->
+                    <img src="img/st1.jpg" alt="Image of Star Wars">
+                </figcaption>
+                <h2>História</h2>
+                <!-- Starting Text about the History -->
+                <p class="introduction">A saga de Star Wars se desenrola em uma galáxia distante, onde a luta entre o bem e o mal molda o destino de diversos mundos e civilizações. A narrativa central gira em torno da ascensão do Império Galáctico e da luta da Aliança Rebelde para restaurar a liberdade.</p>
+                <p class="introduction">A história começa com a ascensão dos Sith, que, após séculos de exílio, voltam a ameaçar a República. O jovem Anakin Skywalker, um prodígio com uma conexão excepcional com a Força, é descoberto por Jedi como Qui-Gon Jinn, que acreditam que ele é o "Escolhido" destinado a trazer equilíbrio à Força. No entanto, sua trajetória se torna uma tragédia à medida que ele se deixa consumir pelo medo, raiva e ambição, resultando em sua transformação em Darth Vader, um dos vilões mais icônicos da história do cinema.</p> 
+                <p class="introduction">Enquanto isso, a Aliança Rebelde, formada por heróis como Leia Organa, Han Solo e Luke Skywalker, luta contra o regime opressivo do Império. O conflito culmina em batalhas épicas, que envolvem não apenas naves e exércitos, mas também a luta interna entre os Jedi e os Sith. Temas como redenção, família, amizade e o eterno conflito entre luz e escuridão permeiam a saga, criando uma narrativa rica e multifacetada.</p>
+                <!-- Ending Text about The History -->
+            </section>
+            <!-- Ending The Section about the History -->
+
+            <!-- Starting The Section about the Characters -->
+            <section class="box" id="characters">
+                <h2>Personagens</h2>
+                <!-- Introduction Text about the Characters -->
+                <p class="introduction">Na vasta galáxia de Star Wars, uma variedade de personagens icônicos desempenha papéis fundamentais na luta entre o bem e o mal. Desde o Jedi Anakin Skywalker, cuja trajetória trágica o leva ao lado sombrio, até a corajosa princesa Leia Organa, que lidera a Rebelião contra o Império, cada figura traz sua própria história e complexidade. Han Solo, o carismático contrabandista, e seu fiel amigo Chewbacca representam a lealdade e a coragem, enquanto os droides C-3PO e R2-D2 fornecem alívio cômico e inteligência nas situações mais desafiadoras. E, na nova trilogia, BB-8 se junta ao legado, trazendo um frescor ao universo. Juntos, esses personagens não apenas enfrentam inimigos, mas também exploram temas de amor, amizade e redenção.</p>
+                <!-- Starting Section  the Dark side -->
+                <h3>Lado Negro</h3>
+                    <div class="cards-characters">
+                        <figcaption class="width-200">
+                            <!-- Part of The Darth Vader -->
+                            <div class="image-container" onclick="toggleText(this)">
+                                <div class="image">
+                                    <img src="img/imgPersonagens/personagem1.png" alt="Darth Vader">
+                                </div>
+                                <div class="text">
+                                    <p>Um dos maiores vilões da cultura geek, Darth Vader, e também um dos mais dominantes. Governou o universo de Star Wars durante muito tempo, até que chegou a batalha de Yavin. No passado, como Anakin, foi dito que ele traria equilíbrio para a Força, e por muito tempo acharam que era mentira, mas no final de tudo fica claro que ele a trouxe.</p>
+                                </div>
+                            </div>
+                            <!-- Part of The Palpatine -->
+                            <div class="image-container" onclick="toggleText(this)">
+                                <div class="image">
+                                    <img src="img/imgPersonagens/personagem2.jpg" alt="Palpatine">
+                                </div>
+                                <div class="text">
+                                    <p>Um dos seres mais fortes que aparece nos FILMES de Star Wars com incríveis habilidades de manipulação, foi responsável por manipular o Anakin (o escolhido pela força) para o trazer para o lado Sith. No VI filme é mostrado que ele havia morrido, mas ele tinha encontrado um jeito de se materializar em energia.</p>
+                                </div>
+                            </div>
+                            <!-- Part of The General Grievous -->
+                            <div class="image-container" onclick="toggleText(this)">
+                                <div class="image">
+                                    <img src="img/imgPersonagens/personagem3.jpg" alt="General Grievous">
+                                </div>
+                                <div class="text">
+                                    <p>Grievous foi um Kaleesh que se tornou General da Confederação de Sistemas Independentes, transformando-se no Comandante Supremo do Exército Droide Separatista durante as Guerras Clônicas contra a República Galáctica.</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                    <!-- Ending Section  the Dark side -->
+
+                <!-- Starting Section  the Side of the Force -->
+                <h3>Lado da Força</h3>
+                    <div class="cards-characters">
+                        <figcaption class="width-200">
+                            <!-- Part  the Luke Skywalker -->
+                            <div class="image-container" onclick="toggleText(this)">
+                                <div class="image">
+                                    <img src="img/imgPersonagens/personagem4.jpg" alt="Luke Skywalker">
+                                </div>
+                                <div class="text">
+                                    <p>Luke Skywalker filho de Anakin, irmão gemêo de Léia Organa. Foi separado de sua irmã gemea, onde ela acabou indo para a realeza, e ele ficando com uma pobre familia em tattoine. Foi responsavél por acabar com o império e a e strela da morte, muitos o consideram uma lenda.</p>
+                                </div>
+                            </div>
+                            <!-- Part  the Obin Wan -->
+                            <div class="image-container" onclick="toggleText(this)">
+                                <div class="image">
+                                    <img src="img/imgPersonagens/personagem5.jpg" alt="Obi-wan">
+                                </div>
+                                <div class="text">
+                                    <p>O Obi-wan pode ser dividido em 2 momentos da histório, o Jedi Obi-Wan Kenobi e o velho Obi, O Obi-Wan que teve como seu Padawan, o jovem prodigio Anakin Skywalker, E o Velho Obi, que teve durante um tempo seu aprendiz Luke Skywalker. Alguns culpam o Obi-Wan por Anakin  ter se tornado Darth Vader.</p>
+                                </div>
+                            </div>
+                            <!-- Part  the Anakin Skywalker -->
+                            <div class="image-container" onclick="toggleText(this)">
+                                <div class="image">
+                                    <img src="img/imgPersonagens/personagem6.jpg" alt="Anakin Skywalker">
+                                </div>
+                                <div class="text">
+                                    <p>Um Jedi talentoso, Anakin é o "Escolhido" destinado a trazer equilíbrio à Força. Sua vulnerabilidade e paixão o levam ao lado sombrio, onde se torna Darth Vader, um dos vilões mais icônicos.</p>
+                                </div>
+                            </div>
+                            <!-- Part  the Han Solo -->
+                            <div class="image-container" onclick="toggleText(this)">
+                                <div class="image">
+                                    <img src="img/imgPersonagens/personagem7.jpg" alt="Han Solo">
+                                </div>
+                                <div class="text">
+                                    <p>Contrabandista e capitão da Millennium Falcon, Han é carismático e cínico, mas evolui para um herói da Rebelião. Sua relação com Leia Organa é uma das tramas centrais.</p>
+                                </div>
+                            </div>
+                            <!-- Part  the Chewbacca -->
+                            <div class="image-container" onclick="toggleText(this)">
+                                <div class="image">
+                                    <img src="img/imgPersonagens/personagem8.jpg" alt="Chewbacca">
+                                </div>
+                                <div class="text">
+                                    <p>Fiel parceiro de Han Solo, Chewbacca é um forte Wookiee que representa lealdade e coragem, sempre pronto para a batalha.</p>
+                                </div>
+                            </div>
+                            <!-- Part  the Leia Organa -->
+                            <div class="image-container" onclick="toggleText(this)">
+                                <div class="image">
+                                    <img src="img/imgPersonagens/persoangem9.jpg" alt="Leia Organa">
+                                </div>
+                                <div class="text">
+                                    <p>Princesa de Alderaan e líder da Rebelião, Leia é determinada e corajosa, lutando contra o Império enquanto navega por questões familiares complexas.</p>
+                                </div>
+                            </div>
+                        </figcaption>
+                <!-- Ending Section  the Side of the Force -->
+                 
+                <!-- Starting Section  the Droids -->
+                <h3>Droids</h3>
+                    <div class="cards-characters">
+                        <figcaption class="width-200">
+                        <!-- Part  the C3-PO -->
+                        <div class="image-container" onclick="toggleText(this)">
+                            <div class="image">
+                                <img src="img/imgPersonagens/personagem10.jpg" alt="C3-PO">
+                            </div>
+                            <div class="text">
+                                <p>Um droide de protocolo meticuloso, C-3PO é fluente em várias línguas e traz alívio cômico, sendo um recurso importante para a comunicação.</p>
+                            </div>
+                        </div>
+                        <!-- Part  the R2D2 -->
+                        <div class="image-container" onclick="toggleText(this)">
+                            <div class="image">
+                                <img src="img/imgPersonagens/personagem11.jpg" alt="R2-D2">
+                            </div>
+                            <div class="text">
+                                <p>Um droide astromecânico leal e engenhoso, R2-D2 frequentemente salva os heróis com suas habilidades técnicas e coragem em situações críticas.</p>
+                            </div>
+                        </div>
+                        <!-- Part  the BB8 -->
+                        <div class="image-container" onclick="toggleText(this)">
+                            <div class="image">
+                                <img src="img/imgPersonagens/personagem12.jpg" alt="BB8">
+                            </div>
+                            <div class="text">
+                                <p>O droide esférico da nova trilogia, BB-8 é ágil e leal, ajudando Rey e os outros na luta contra o Primeiro Império, tornando-se um novo símbolo de esperança.</p>
+                            </div>
+                        </div>
+                    </figcaption>
+            </section>
+            <!-- Ending The Section about the Characters -->
+
+            <!-- Starting The Section about the Spaceship -->
+            <section class="box" id="spaceship">
+                <h2>Naves</h2>
+                <!-- Introduction Text about the spaceship -->
+                <p class="introduction">As naves de Star Wars são tão icônicas quanto seus personagens, representando a tecnologia e a criatividade do universo. Desde a veloz e famosa Millennium Falcon, que serve como casa e nave de combate para Han Solo e Chewbacca, até os ágeis X-Wings da Aliança Rebelde, cada nave tem sua própria história e importância estratégica. Os poderosos Destróieres Imperiais, com sua imponente presença, simbolizam o domínio do Império, enquanto os caças TIE são símbolos da sua força aérea. As naves não são apenas veículos; elas representam a luta pela liberdade e a bravura dos que as pilotam.</p>
+                <!-- Part of the Millennium Falcon -->
+                <div class="card-textLeft">
+                    <p>A Millennium Falcon é uma das naves mais icônicas da galáxia, conhecida por sua velocidade e manobrabilidade excepcionais. Originalmente um cargueiro, Han Solo e Chewbacca modificaram a nave para que pudesse escapar de caças imperiais e se envolver em combates. A Falcon desempenha um papel crucial em várias batalhas, sendo não apenas um meio de transporte, mas um símbolo de resistência e esperança. Seu design característico e seu interior repleto de tecnologia avançada fazem dela uma nave única.</p>
+                    <figcaption class="width-500">
+                        <img src="img/imgNaves/nave1.jpg" alt="Image of Millennium Falcon">
+                    </figcaption>
+                </div>
+                 <!-- Part of the X-Wing -->
+                <div class="card-textRight">
+                    <figcaption class="width-500">
+                        <img src="img/imgNaves/nave2.jpg" alt="Image of X-Wing">
+                    </figcaption>
+                    <p>O X-Wing é a nave de combate principal da Aliança Rebelde, projetada para a guerra. Com seu design ágil e versatilidade, ele é ideal para missões de ataque e defesa. O X-Wing é conhecido por seu sistema de hiperdrive e armamento, que incluem lasers e torpedos. Pilotos como Luke Skywalker e Poe Dameron se destacam em suas manobras e vitórias contra as forças imperiais, tornando essa nave um ícone da luta rebelde.</p>
+                </div>
+                 <!-- Part of the Destróieres -->
+                <div class="card-textLeft">
+                    <p>Os Destróieres são enormes cruzadores de guerra do Império Galáctico, projetados para intimidar e controlar a galáxia. Eles são símbolos do poder imperial, usados para manter a ordem e esmagar a resistência. Com seu impressionante poder de fogo e tamanho colossal, os Destróieres frequentemente lideram as frotas imperiais em batalhas decisivas.</p>
+                    <figcaption class="width-500">
+                        <img src="img/imgNaves/nave3.jpg" alt="Image of Destróier">
+                    </figcaption>
+                </div>
+                 <!-- Part of the T-4a -->
+                <div class="card-textRight">
+                    <figcaption class="width-500">
+                        <img src="img/imgNaves/nave4.jpg" alt="Image of T-4a">
+                    </figcaption>
+                    <p>Os T-4a são caças utilizados pelas forças rebeldes, conhecidos por sua agilidade e eficácia em combate. Embora menos icônicos que os X-Wings, esses caças desempenham papéis importantes nas batalhas, ajudando a manter a superioridade aérea contra o Império. Seu design simples, mas eficiente, os torna essenciais para as táticas da Aliança.</p>
+                </div>
+                 <!-- Part of the caças TIE -->
+                <div class="card-textLeft">
+                    <p>Os caças TIE são naves de combate do Império, facilmente reconhecíveis por suas asas em forma de T. Embora ágeis e rápidas, os caças TIE são menos robustos que os X-Wings, exigindo dos pilotos uma habilidade excepcional. Eles simbolizam a determinação do Império em controlar a galáxia e muitas vezes são enviados em grande número para superar a resistência.</p>
+                    <figcaption class="width-500">
+                        <img src="img/imgNaves/nave5.jpg" alt="Image of Caça Tie">
+                    </figcaption>
+                </div>
+            </section>
+            <!-- Ending The Section about the Spaceship -->
+
+            <!-- Starting The Section about the Films -->
+            <section class="box" id="films">
+                <h3>Filmes</h3>
+                <!-- Introduction Text about the films -->
+                <p class="introduction">A saga cinematográfica de Star Wars é um épico que atravessa gerações, começando com a trilogia original e continuando com as prequelas e sequências. Cada filme apresenta uma nova fase da luta entre a Aliança Rebelde e o Império Galáctico, abordando temas profundos como a luta interna entre luz e escuridão. Desde a descoberta de Anakin Skywalker em A Ameaça Fantasma até a redenção de Darth Vader em O Retorno de Jedi, os filmes oferecem uma rica tapeçaria de personagens e eventos que moldam o destino da galáxia. A narrativa se expande em cada nova trilogia, trazendo novos heróis e vilões enquanto os fundamentos da Força continuam a influenciar os acontecimentos.</p>
+                <!-- Part of the Film1 -->
+                <div class="card-textRight">
+                    <figcaption class="width-500">
+                        <img src="img/imgFilmes/filme1.jpg" alt="Image of Poster Film1">
+                    </figcaption>
+                    <p>Star Wars: A Ameaça Fantasma (Episódio I) apresenta a descoberta de Anakin Skywalker, um garoto com habilidades excepcionais na Força. O Jedi Qui-Gon Jinn e seu aprendiz Obi-Wan Kenobi são enviados a Naboo para proteger a Rainha Amidala contra a invasão da Federação do Comércio. Durante a missão, eles descobrem Anakin em Tatooine e Qui-Gon acredita que ele pode ser a chave para trazer equilíbrio à Força. Ao mesmo tempo, os Sith, inimigos mortais dos Jedi, começam a se mostrar novamente. Darth Maul, um misterioso guerreiro Sith, persegue os Jedi enquanto Darth Sidious trama na sombra para desestabilizar a República. O filme estabelece a base para os conflitos que dominarão a galáxia, introduzindo personagens e elementos centrais, como os Jedi, os Sith, e o início da queda da República.</p>
+                </div>
+                <!-- Part of the Film2 -->
+                <div class="card-textLeft">
+                    <p>Star Wars: Ataque dos Clones (Episódio II) se passa dez anos após os eventos de A Ameaça Fantasma. Anakin Skywalker agora é um Jedi em treinamento sob a tutela de Obi-Wan Kenobi, mas começa a lutar com suas emoções e o crescente amor por Padmé Amidala, a ex-rainha de Naboo. Enquanto isso, a galáxia vive um período de crescente tensão, com os Separatistas, liderados por Count Dooku, ameaçando a estabilidade da República. A história culmina na eclosão da Guerra Clonial, quando o Senado autoriza a criação de um exército de clones para lutar contra os separatistas. Anakin, agora em uma missão com Padmé, também enfrenta uma batalha interna entre seu dever como Jedi e seus sentimentos pessoais, o que acaba moldando seu destino. O filme também marca o início de sua relação com o lado sombrio da Força, enquanto a ameaça dos Sith começa a se consolidar.</p>
+                    <figcaption class="width-500">
+                        <img src="img/imgFilmes/filme2.jpg" alt="Image of Poster Film2">
+                    </figcaption>
+                </div>
+                <!-- Part of the Film3 -->
+                <div class="card-textRight">
+                    <figcaption class="width-500">
+                        <img src="img/imgFilmes/filme3.jpg" alt="Image of Poster Film3">
+                    </figcaption>
+                    <p>Star Wars: A Vingança dos Sith (Episódio III) foca na trágica queda de Anakin Skywalker para o lado sombrio da Força, levando à sua transformação em Darth Vader. Manipulado por Palpatine, que se revela como o Imperador e líder dos Sith, Anakin se volta contra os Jedi e executa a Ordem 66, que resulta na destruição quase total da Ordem Jedi. O filme marca a ascensão do Império Galáctico e a queda da República. Enquanto a galáxia mergulha em escuridão, o conflito entre as forças do bem e do mal se intensifica. Obi-Wan Kenobi e Yoda se tornam os últimos Jedi restantes, enquanto Anakin, agora Darth Vader, se junta ao Imperador em sua busca pelo controle total da galáxia.</p>
+                </div>
+                <!-- Part of the Film4 -->
+                <div class="card-textLeft">
+                    <p>Star Wars: Uma Nova Esperança (Episódio IV) apresenta Luke Skywalker, um jovem fazendeiro de Tatooine que se une à Aliança Rebelde para lutar contra o Império Galáctico. Ao lado de Obi-Wan Kenobi, Han Solo e Leia Organa, Luke embarca em uma missão para destruir a Estrela da Morte, uma superarma imperial capaz de destruir planetas inteiros. O filme marca o início da jornada de Luke como herói, enquanto ele começa a descobrir seu vínculo com a Força. O embate culmina em uma batalha épica, com Luke usando seus novos poderes para destruir a Estrela da Morte e dar um grande golpe no Império. Uma Nova Esperança se tornou um marco cultural, estabelecendo a narrativa central da saga Star Wars e a luta entre o bem e o mal.</p>
+                    <figcaption class="width-500">
+                        <img src="img/imgFilmes/filme4.jpg" alt="Image of Poster Film4">
+                    </figcaption>
+                </div>
+                <!-- Part of the Film5 -->
+                <div class="card-textRight">
+                    <figcaption class="width-500">
+                        <img src="img/imgFilmes/filme5.jpg" alt="Image of Poster Film5">
+                    </figcaption>
+                    <p>Star Wars: O Império Contra-Ataca (Episódio V) é amplamente considerado um dos melhores filmes da série, pois aprofunda os personagens e traz reviravoltas significativas. Após a destruição da Estrela da Morte, a Rebelião sofre um golpe devastador quando o Império ataca sua base secreta. Luke Skywalker viaja até Dagobah para treinar com o mestre Jedi Yoda, buscando aprimorar seus poderes na Força. Enquanto isso, Han Solo e Leia Organa são perseguidos implacavelmente pelas forças imperiais, culminando em uma captura dramática de Han. O ponto culminante do filme é a chocante revelação de que Darth Vader é, na verdade, o pai de Luke, um dos momentos mais impactantes e memoráveis de toda a saga.</p>
+                </div>
+                <!-- Part of the Film6 -->
+                <div class="card-textLeft">
+                       <p>Star Wars: O Retorno de Jedi (Episódio VI) encerra a trilogia original com a luta final entre a Rebelião e o Império. A missão para resgatar Han Solo, capturado pelo Jabba, culmina em uma série de confrontos e a destruição de Jabba e seu império. A batalha decisiva ocorre na segunda Estrela da Morte, onde a Rebelião tenta destruir a superarma imperial enquanto enfrenta as forças de Darth Vader e o Imperador Palpatine. A redenção de Vader, ao escolher salvar seu filho, Luke, e derrotar o Imperador, simboliza o triunfo da luz sobre a escuridão. O filme traz um senso de esperança e fechamento à saga, com a restauração da paz na galáxia e o fim do Império.</p>
+                    <figcaption class="width-500">
+                        <img src="img/imgFilmes/filme6.jpg" alt="Image of Poster Film6">
+                    </figcaption>
+                </div>
+            </section>
+            <!-- Ending The Section about the Films -->
+
+            <!-- Starting The Section about the Force -->
+            <section class="box" id="force">
+                <h2>A Força</h2>
+                <!-- Introuduction Text about the force -->
+                <p class="introduction">A Força é uma energia mística que permeia a galáxia, conectando todos os seres vivos. Ela é descrita como um campo de energia que pode ser usado por aqueles que estão em sintonia com ela, como os Jedi e os Sith. Para os Jedi, a Força é uma fonte de sabedoria e compaixão, permitindo-lhes atuar como guardiões da paz. Eles a utilizam para realizar feitos extraordinários, como telecinese e previsões do futuro.</p>
+                <p class="introduction">Os Sith, em contraste, buscam dominar a Força e manipulá-la para seu próprio ganho, acreditando que o poder é a chave para a verdadeira força. A luta entre esses dois grupos reflete a tensão entre a luz e a escuridão, com a ideia de que o equilíbrio da Força é essencial para a harmonia da galáxia. Essa busca pelo equilíbrio é um dos temas centrais da saga, refletindo as batalhas internas dos personagens e as escolhas que fazem.</p>
+                <!-- Explaining the Jedi code -->
+                <div class="card-textRight">
+                    <figcaption class="width-500">
+                        <img src="img/imgForces/imgjedi.png" alt="Image of Jedi Code">
+                    </figcaption>
+                    <p>Os Jedi são defensores da paz, justiça e harmonia na galáxia. Eles seguem um código que enfatiza a autocontrole, a empatia e a responsabilidade. Os Jedi são treinados desde jovens e se comprometem a não se deixar levar por emoções negativas, buscando sempre a paz. Seu papel é o de proteger os inocentes e enfrentar a tirania.</p>
+                </div>
+                <!-- Explaining the Sith -->
+                <div class="card-textLeft">
+                    <p>Os Sith, por outro lado, abraçam suas emoções e acreditam que a paixão é uma fonte de poder. Eles buscam a dominância e a força pessoal, frequentemente envolvendo-se em intrigas e traições. Os Sith são conhecidos por sua ambição e pela busca incessante por poder, frequentemente utilizando métodos brutais para alcançar seus objetivos. A luta entre Jedi e Sith não é apenas uma batalha externa, mas também uma representação da luta interna que todos enfrentam entre suas próprias luz e escuridão.</p>
+                    <figcaption class="width-500">
+                        <img src="img/imgForces/imgsith.png" alt="Image of Sith">
+                    </figcaption>
+                </div>
+                <!-- Explaining the Balance of Force -->
+                <div class="card-textRight">
+                    <figcaption class="width-500">
+                        <img src="img/imgForces/BalanceOfForce.png" alt="Image of Balance of Force">
+                    </figcaption>
+                    <p>O balanceamento da Força é um conceito central na saga de Star Wars, representando a harmonia entre a luz e a escuridão. A Força é uma energia que conecta todos os seres vivos, e o equilíbrio é essencial para o bem-estar da galáxia. Os Jedi buscam promover a paz e a justiça, usando a Força para proteger os inocentes e manter a ordem. Em contrapartida, os Sith são movidos por ambição e desejo de poder, frequentemente desequilibrando a Força ao se entregarem à raiva e ao ódio.
+                    </p>
+                </div>
+            </section>
+            <!-- Ending The Section about the Force -->
+        </main>
+        <!-- Ending the Main -->
+    </div>
+    <!-- Ending the Container -->
+
+    <!-- Starting the Footer -->
+    <footer>
+        <!-- Copyright Text -->
+        <h1>2024 © WookiPedia | Privacidades Termos</h1>
+    </footer>
+    <!-- Ending the Footer -->
+     
+    <!-- Link for the JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
